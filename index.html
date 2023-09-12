@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Webmaster test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./files/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="./files/css" rel="stylesheet" type="text/css">
+    <link href="./files/css(1)" rel="stylesheet" type="text/css">
+
+    <script src="./files/jquery.min.js.download"></script>
+    <script src="./files/bootstrap.min.js.download"></script>
+
+    <script>
+      const dataArray = [
+        {
+          id: 1,
+          title: "sunt aut facere repellat provident o",
+          body: "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam",
+          thumbnailUrl: "https://via.placeholder.com/150/92c952"
+        },
+        {
+          id: 2,
+          title: "qui est esse",
+          body: "est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis",
+          thumbnailUrl: "https://via.placeholder.com/150/d32776"
+        },
+        {
+          id: 3,
+          title: "ea molestias quasi exercitationem ",
+          body: "et iusto sed quo iure voluptatem occaecati omnis eligendi aut ad voluptatem doloribus vel accusantium quis",
+          thumbnailUrl: "https://via.placeholder.com/150/f66b97"
+        },
+        {
+          id: 4,
+          title: "eum et est occaecati",
+          body: "ullam et saepe reiciendis voluptatem adipisci sit amet autem assumenda provident rerum culpa quis hic voluptatem rerum illo velit",
+          thumbnailUrl: "https://via.placeholder.com/150/56a8c2"
+        },
+        {
+          id: 5,
+          title: "nesciunt quas odio",
+          body: "repudiandae veniam quaerat sunt sed alias aut fugiat sit autem sed est voluptatem omnis possimus esse voluptatibus",
+          thumbnailUrl: "https://via.placeholder.com/150/b0f7cc"
+        },
+        {
+          id: 6,
+          title: "dolorem eum magni eos aperiam quia",
+          body: "ut aspernatur corporis harum nihil quis provident sequi mollitia nobis aliquid molestiae perspiciatis et ea",
+          thumbnailUrl: "https://via.placeholder.com/150/54176f"
+        },
+        {
+          id: 7,
+          title: "magnam facilis autem",
+          body: "dolore placeat quibusdam ea quo vitae magni quis enim qui quis quo nemo aut saepe quidem repellat excepturi",
+          thumbnailUrl: "https://via.placeholder.com/150/51aa97"
+        },
+        {
+          id: 8,
+          title: "dolorem dolore est ipsam",
+          body: "dignissimos aperiam dolorem qui eum facilis quibusdam animi sint suscipit qui sint possimus cum aut vitae",
+          thumbnailUrl: "https://via.placeholder.com/150/810b14"
+        },
+        {
+          id: 9,
+          title: "nesciunt iure omnis dolorem tempora",
+          body: "consectetur animi nesciunt iure dolore enim quia ad veniam autem ut quam aut nobis et est aut quod aut provident voluptas",
+          thumbnailUrl: "https://via.placeholder.com/150/1ee8a4"
+        },
+        {
+          id: 10,
+          title: "optio molestias id quia eum",
+          body: "quo et expedita modi cum officia vel magni doloribus qui repudiandae vero nisi sit quos veniam quod sed accusamus veritatis error",
+          thumbnailUrl: "https://via.placeholder.com/150/66b7d2"
+        },
+        {
+          id: 11,
+          title: "et ea vero quia laudantium autem",
+          body: "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus accusamus in eum beatae sit vel qui neque",
+          thumbnailUrl: "https://via.placeholder.com/150/197d29"
+        }
+      ]
+    </script>
+  </head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" data-new-gr-c-s-check-loaded="14.1062.0"
+    data-gr-ext-installed="">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.w3schools.com/bootstrap/trybs_theme_company_full.htm#myPage">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="#about">About</a></li>
+            <li class=""><a href="#promotions">Promotions</a></li>
+            <li class=""><a href="#usersList">Users List</a></li>
+            <li class=""><a href="#footer">Footer</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container heading">
+        <p>888poker is made to play&nbsp;with</p>
+        <p>$88 Free bonus</p>
+        <p>NO DEPOSIT NEEDED</p>
+        <a href="#">
+          <button id="cta_btn"> Get Started </button>
+        </a>
+      </div>
+    </div>
+
+    <div id="about" class="container-fluid bg-grey text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Hello <span id="display_username">{User}</span></h2>
+          <!-- Wrapping the text base on the golden rule for character count per line   -->
+          <p id="text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+            <!-- put &nbsp; to prevent orphans in the text -->
+          <br>
+          <button id="load_btn" class="btn btn-default btn-lg"> Get the user name </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="promotions" class="container-fluid text-center">
+      <h2>Promotions</h2>
+      <h4>What we offer</h4>
+      <div id="promotion-cards-row" class="row container-fluid d-flex justify-content-center">
+        <div class="card">
+          <div class="image"></div>
+          <div id="content" class="content text-left">
+            <span id="title" class="title">
+              Lorem ipsum dolor sit amet consectetur adipisicing&nbsp;elit.
+            </span>
+
+            <p id="desc" class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+              dolores, possimus pariatur animi temporibus nesciunt&nbsp;praesentium 
+            </p>
+      
+            <a class="action" href="#"> More info </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="usersList" class="container-fluid text-center bg-grey">
+      <h2>Users</h2>
+      <h4 id="list-of-users">List of completed users</h4>
+    </div>
+
+    <footer id="footer" class="container-fluid text-center">
+      <h2>Footer</h2>
+      <p>The color of the text will change to blue when you see&nbsp;me</p>
+    </footer>
+
+      <script>
+        $(document).ready(function () {
+          // Add smooth scrolling to all links in navbar + footer link
+          $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          });
+
+          // Slide in elements on scroll
+          $(window).scroll(function () {
+            $(".slideanim").each(function () {
+              var pos = $(this).offset().top;
+
+              var winTop = $(window).scrollTop();
+              if (pos < winTop + 600) {
+                $(this).addClass("slide");
+              }
+            });
+          });
+        })
+      </script>
+      <script src="main.js"></script>
+
+  </body>
+</html>
